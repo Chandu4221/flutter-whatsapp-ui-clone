@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
           SliverAppBar(
             title: Text("WhastApp"),
             floating: true,
-            backgroundColor: Colors.green[700],
+            backgroundColor: Colors.purple[800],
             actions: [
               IconButton(
                 icon: Icon(Icons.search),
@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
               initialIndex: 0,
               length: 3,
               child: Scaffold(
-                backgroundColor: Colors.green[700],
+                backgroundColor: Colors.purple[800],
                 appBar: TabBar(
                   unselectedLabelColor: Colors.white70,
                   labelColor: Colors.white,
@@ -45,10 +45,10 @@ class Home extends StatelessWidget {
                       text: "Chats",
                     ),
                     Tab(
-                      text: "Chats",
+                      text: "Status",
                     ),
                     Tab(
-                      text: "Chats",
+                      text: "Calls",
                     ),
                   ],
                 ),
